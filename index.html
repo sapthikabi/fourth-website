@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Service Booking System</title>
+    <!---Bootstrap css--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---bootstrap font--->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!---Custom css--->
+    <link rel="stylesheet" href="assects/style.css">
+
+</head>
+<body>
+    <!--- nav bar start here -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbarNav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span class="display-6 text-white">
+                        <img src="assects/images/logo.png" alt="logo">
+                            <span style=color:#80cc28;>Be<span style="color:#51ade5;">clean</span></span>
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!---nav bar end here --->
+
+    <!---index main part start here --->
+    <section id="first-session">
+        <div class="container-fluid px-5">
+            <div class="row justify-content-center align-items-center" >
+                <div class="col-md-6 text-center text-md-start">
+                    <h6 style="color: #51ade5;font-weight: bold;" class="my-2">YOUR TRUSTED PARTNER</h6>
+                    <hr>
+                    <h1>
+                        <div class="head" style="font-size:50px;">Your Trusted </div>
+                        <div class="head" style="font-size:35px;">Home Cleaning Service</div>
+                    </h1> 
+                    <p class="lead mt-2" id="para"> Refresh your space in a few minutes with Professional cleaning services for your home and office. We help clean all your needs with our various. Profressional,Fastly & An Afforable Price !</p>
+                    <a href="#" class="btn mb-3" id="button">Book Now</a>
+                </div>
+                <div class="col-md-6  d-none d-md-block">
+                <img class="img-fluid" src="assects/images/main.png" alt="main">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---index main part end here --->
+
+    <!---index service part start here --->
+    <section id="second-session">
+        <div class="container-fluid" style="background-color: white">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-3" id="box1" >
+                    <div class="icon mt-3" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                          </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 22px; color: #1c1c50;">Commit Quality</h6>
+                        <p id="para">Our cleaners alway secure and profressional</p>
+                    </div>
+                </div>
+                <div class="col-md-3" id="box2" >
+                    <div class="icon mt-3" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-square-text" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                            <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                          </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 22px; color: #1c1c50;">24/7 Support</h6>
+                        <p id="para">we always ready to support our client 24/7 </p>
+                    </div>
+                </div>
+                <div class="col-md-3" id="box2" >
+                    <div class="icon mt-3" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
+                            <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z"/>
+                          </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 22px; color: #1c1c50;">Our Experience</h6>
+                        <p id="para">We have experience clearners to clean mess</p>
+                    </div>
+                </div>
+                <div class="col-md-3" id="box1">
+                    <div class="icon mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                            <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518z"/>
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                            <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11m0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12"/>
+                          </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 22px; color: #1c1c50;">Affordable</h6>
+                        <p id="para">Help you save time and money for cleaning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---index service part end here --->
+
+    <!---index about part start here --->
+    <section id="third-session">
+        <div class="container-fluid px-5"  style="background-color: #f9f8f2">
+            <div class="row justify-content-center align-items-center" >
+                <div class="col-md-6  d-none d-md-block">
+                <img class="img-fluid" src="assects/images/about.png" alt="about">
+                </div>
+                <div class="col-md-6 text-center text-md-start mt-3">
+                    <h6 style="color:#80cc28;font-weight: bold;">LEARN ABOUT US</h6>
+                    <hr>
+                    <h4 style="font-family:Broadway; color: #1c1c50;">We Provide The Best Cleaning Services For Our Client</h4>
+                    <br>
+                    <p class="lead" style="font-size: 18px;">Welcome to Beclean cleaning service, where cleanliness meets excellence! We are a dedicated team of professionals committed to providing top-notch home and office cleaning solutions tailored to your needs.
+                        With years of experience, we pride ourselves on our attention to detail, reliability, and exceptional customer service. Whether it is a one-time deep clean or a regular maintenance schedule, we aim to create a fresh and welcoming environment for you and your loved ones.
+                        At Beclean cleaning service, your satisfaction is our priority. Let us take care of the mess, so you can focus on what matters most.</p>
+                    <a href="#" class="btn mb-3" id="button">Learn</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!---index third part end here --->
+    
+    <!---index contact part end here --->
+    <section id="second-session">
+        <div class="container-fluid" style="background-color: white;">
+            <div class="row justify-content-center align-items-center" id="box">
+                <div class="col-md-4" >
+                    <div class="icon mt-4" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 15px; color: #1c1c50;">OUR CONTACT</h6>
+                        <p id="para">+94 786778905</p>
+                    </div>
+                </div>
+                <div class="col-md-4" >
+                    <div class="icon mt-4" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                            <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765zM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M0 13.373l5.693-3.163L0 6.873z"/>
+                        </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 15px; color: #1c1c50;">OUR EMAIL </h6>
+                        <p id="para">Beclean27@.com </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon mt-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                    </div>
+                    <br>
+                    <div class="icon-text text-center">
+                        <h6 style="font-size: 15px; color: #1c1c50;">OUR LOCATION</h6>
+                        <p id="para">421,Power House Road</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---index contact part end here --->
+
+    <!---index card part start here --->
+    <section style="background-color: #f9f8f2;" >
+        <div class="container-fluid ">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 text-center text-md-start mt-3">
+                    <h6 style="color: #51ade5; font-weight: bold;">GET IN TOUGH WITH US</h6>
+                    <hr>
+                    <br>
+                    <h4 style="font-family:Broadway; color: #1c1c50;">WE WOULD LOVE TO WORK WITH YOU FOR CLEAN</h4>
+                    <br>
+                    <p>We are here to make your life easier with professional cleaning services tailored to your needs. 
+                        Whether you have questions, need a custom quote, or want to schedule a cleaning, our team is just a message away. 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi ipsa facilis repudiandae vitae incidunt
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellat exercitationem, ad itaque ipsa debitis dolor laboriosam impedit sequi provident? Nulla et cumque nobis blanditiis doloribus vitae. Suscipit, et quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo tempora quia quisquam temporibus harum ullam neque earum rerum id debitis maiores, praesentium nam magnam. Delectus dolore rem repudiandae ducimus!
+                        Fill out the form below, call us, or drop us an email we did love to hear from you! Your clean and comfortable space is our priority.</p>
+                        <a href="#" class="btn mb-3" id="button">Learn</a>
+                    </div>
+                <div class="col-md-6  d-none d-md-block">
+                    <img class="img-fluid" src="assects/images/banner.png" alt="main">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!---index card part end here --->
+
+    <!---index thought part star here --->
+    <section id="thought">
+        <div class="container-fluid" style="background-color: white;">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12 text-center h3 ">
+                    <h4 style="font-size: 30px;" class="mt-3">Book an appoitment quickly? Call us now!</h4>
+                    <p id="para">We prodive a dedicated support 24/7 for any your question</p>
+                    <h3>+94 786778905 </h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!---index thought part end here --->
+
+    <!--- footer start here -->
+    <section id="footer">
+        <footer class="text-white text-center p-4">
+            <p>&copy; 2024 Becleansapthi. All Rights Reserved.</p>
+            <p>Email: Beclean27sapthi@.com | Phone: +947679087654</p>
+        </footer>
+    </section>
+    <!--- footer end here --->
+
+    <!--- scroll top start here --->
+    <div class="text-center justify-content-center align-items-center"></div>
+        <button class="btn btn-danger position-fixed bottom-0 end-0 translate-middle d-none" onclick="scrollToTop()" id="back-to-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+            </svg>
+        </button>
+    </div>
+    <!--- scroll top end here --->
+<!---Bootstrap js--->
+    <script src="assects/js/bootstrap.bundle.min.js"></script>
+    <script src="assects/js/bootstrap.min.js"></script>
+<!---custom js--->
+    <script src="assects/script.js"></script>
+</body>
+</html>
+    
